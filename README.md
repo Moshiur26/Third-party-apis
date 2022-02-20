@@ -16,7 +16,7 @@ params do
 end
 
 * **Success Response:**
-* **Code:** `201`
+* **Code:** `200`
   	* **Content:**
 
 ```json
