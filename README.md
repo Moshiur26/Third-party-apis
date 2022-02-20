@@ -45,7 +45,7 @@ end
    "success": false,
    "status_code": 403,
    "message": "Invalid username or password",
-   "data": {}
+   "data": []
 }
 
 ```
@@ -96,9 +96,20 @@ RA Create
   	* **If any error occurred then:**
   	* **Content:**
 ```json
-{
+{  "success" : false
    "message": "Can not create due to Validation failed: Email has already been taken",
    "status_code": 409
+}
+```
+
+* ** Error Response:*
+* **Code:** '400'
+  	* **If any error occurred which is missing any required fields then:**
+  	* **Content:**
+```json
+{  "success" : false
+   "message": "name missing",
+   "status_code": 400
 }
 ```
 
@@ -156,7 +167,7 @@ Customer List Of a Specific Retailer Assistance(RA)
    "success": true,
    "message":"Retailer Assistance Not Found",
    "status_code": 404,
-   "data": {},
+   "data": [],
 }
 ```
 
