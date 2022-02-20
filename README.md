@@ -37,13 +37,13 @@ end
 
 
 * ** Error Response:**
-* **Code:** `401`
+* **Code:** `403`
   	* **If username or password not matched then:**
   	* **Content:**
 ```json
 {
    "success": false,
-   "status_code": 401,
+   "status_code": 403,
    "message": "Invalid username or password",
    "data": {}
 }
