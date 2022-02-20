@@ -225,21 +225,21 @@ Customer Registration By Retailer Assistance(RA)
 ```
 
 MISFIT will consume
-Get partner list of a RA 
-Partner Id
-Name
-Bangla Name
-Status
-Schedule
-retailer_code
-partner_code
+Get partner list of a RA : 
+Partner Id,
+Name,
+Bangla Name,
+Status,
+Schedule,
+Retailer code,
+Partner code,
 
 
 User information what we can able to provide:
-Full_name
-Phone
-Gender
-Email
-Age
+Full name,
+Phone,
+Gender,
+Email,
+Age,
  
 
