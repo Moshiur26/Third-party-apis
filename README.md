@@ -77,7 +77,7 @@ RA Create
    requires :area_id, type: Integer
    requires :address_line, type: String
  end
-
+requires :warehouse_id, type: Interger
 
 * **Success Response:**
 * **Code:** `201`
@@ -115,7 +115,7 @@ RA Create
 
 Customer List Of a Specific Retailer Assistance(RA)
 
-* **URL**: `{BASE_URL}/api/v1/retailer_assistants/:id/customers`
+* **URL**: `{BASE_URL}/api/v1/retailer_assistants/customers`
 
 * **Method:** `GET`
 
@@ -123,7 +123,7 @@ Customer List Of a Specific Retailer Assistance(RA)
 	 `Authorization: token’`
 
 *  **Params:**
- requires :retailer_assistance_id, type: Integer
+ requires :ra_phone, type: Integer
  optional :start_date_time, type: DateTime
  optional :end_date_time, type: DateTime
 
@@ -181,46 +181,6 @@ Customer List Of a Specific Retailer Assistance(RA)
    "message": "Internal server error",
    "status_code": 500,
    "data": {},
-}
-```
-
-Customer Registration By Retailer Assistance(RA)
-
-* **URL**: `{BASE_URL}/api/v1/customers`
-
-* **Method:** `POST`
-
-*  **Headers:**
-	 `Authorization: token’`
-*  **Params:**
- requires :full_name, type: String
- requires :phone, type: String
- optional :email, type: String
- requires :gender, type: String
- requires :age, type: String
-
-* **Success Response:**
-* **Code:** `201`
-  	* **Content:**
-
-```json
- {
-   "success": true,
-   "message": "successfully created",
-   "status_code": 201
-}
-```
-
-
-* ** Error Response:**
-* **Code:** `500`
-  	* **If any error occurred:**
-  	* **Content:**
-```json
-{
-   "success": false,
-   "message":"Internal Server error",
-   "status_code": 500
 }
 ```
 
