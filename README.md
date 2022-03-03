@@ -73,11 +73,7 @@ RA Create
  optional :date_of_birth, type: DateTime
  optional :nid, type: String
  optional :tech_skill, type: String
- requires :address_attributes, type: Hash do
-   requires :area_id, type: Integer
-   requires :address_line, type: String
- end
-requires :warehouse_id, type: Interger
+ requires :warehouse_id, type: Interger
 
 * **Success Response:**
 * **Code:** `201`
