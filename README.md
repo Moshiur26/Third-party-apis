@@ -119,7 +119,7 @@ Customer List Of a Specific Retailer Assistance(RA)
 	 `Authorization: token’`
 
 *  **Params:**
- requires :ra_phone, type: Integer
+ requires :ra_phone, type: String
  optional :start_date_time, type: DateTime
  optional :end_date_time, type: DateTime
 
