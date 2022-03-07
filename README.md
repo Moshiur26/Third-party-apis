@@ -138,6 +138,7 @@ Customer List Of a Specific Retailer Assistance(RA)
        "name": "Rakibal Hasan",
        "phone": "01745895099",
        "email": "rakibalhasan448@gmail.com",
+       "ra_phone": "01914840253",
        "status": "active",
     
    },
@@ -146,6 +147,7 @@ Customer List Of a Specific Retailer Assistance(RA)
        "name": "Atik Hasan Rikcon",
        "phone": "01907645765",
        "email": "atikhsarker@gmail.com",
+       "ra_phone": "01914840257",
        "status": "active"
    }
 ]
