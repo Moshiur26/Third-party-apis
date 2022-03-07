@@ -109,7 +109,7 @@ RA Create
 }
 ```
 
-Customer List Of a Specific Retailer Assistance(RA)
+Customer List which are registered by Retailer Assistance(RA)
 
 * **URL**: `{BASE_URL}/api/v1/retailer_assistants/customers`
 
