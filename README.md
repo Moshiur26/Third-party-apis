@@ -142,8 +142,10 @@ Customer List which are registered by Retailer Assistance(RA)
        "email": "rakibalhasan448@gmail.com",
        "date_of_birth": "Wed, 13 Mar 1996",
        "gender": "Male",
-       "is_app_download": false,
-       "registration_at": "Tue, 08 Mar 2022"
+       "is_app_download": true,
+       "has_smart_phone": true,
+       "partner_code": "134556",
+       "registration_at": "Tue, 08 Mar 2022",
        "ra_phone": "01914840253",
        "status": "active",
     
@@ -155,8 +157,10 @@ Customer List which are registered by Retailer Assistance(RA)
        "email": "atikhsarker@gmail.com",
        "date_of_birth": "Wed, 13 Mar 1996",
        "gender": "Male",
-       "is_app_download": false,
-       "registration_at": "Tue, 08 Mar 2022"
+       "is_app_download": true,
+       "has_smart_phone": true,
+       "partner_code": "134556",
+       "registration_at": "Tue, 08 Mar 2022",
        "ra_phone": "01914840257",
        "status": "active"
    }
