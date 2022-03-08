@@ -138,6 +138,10 @@ Customer List which are registered by Retailer Assistance(RA)
        "name": "Rakibal Hasan",
        "phone": "01745895099",
        "email": "rakibalhasan448@gmail.com",
+       "date_of_birth": "Wed, 13 Mar 1996",
+       "gender": "Male",
+       "is_app_download": false,
+       "registration_at": "Tue, 08 Mar 2022"
        "ra_phone": "01914840253",
        "status": "active",
     
@@ -147,6 +151,10 @@ Customer List which are registered by Retailer Assistance(RA)
        "name": "Atik Hasan Rikcon",
        "phone": "01907645765",
        "email": "atikhsarker@gmail.com",
+       "date_of_birth": "Wed, 13 Mar 1996",
+       "gender": "Male",
+       "is_app_download": false,
+       "registration_at": "Tue, 08 Mar 2022"
        "ra_phone": "01914840257",
        "status": "active"
    }
