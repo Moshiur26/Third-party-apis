@@ -1,5 +1,5 @@
 # Third-party-apis
-BASE_URL = "http://api.shopoth.net/3ps/"
+BASE_URL = "http://api.shopoth.net/3ps"
 Authentication
 
 * **URL**: `{BASE_URL}/api/v1/login/`
