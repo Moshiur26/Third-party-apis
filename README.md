@@ -145,7 +145,7 @@ Customer List which are registered by Retailer Assistance(RA)
        "is_app_download": true,
        "has_smart_phone": true,
        "partner_code": "134556",
-       "registration_at": "Tue, 08 Mar 2022",
+       "registration_at": "2022-02-16T19:17:10.919+06:00",
        "ra_phone": "01914840253",
        "status": "active",
     
@@ -160,7 +160,7 @@ Customer List which are registered by Retailer Assistance(RA)
        "is_app_download": true,
        "has_smart_phone": true,
        "partner_code": "134556",
-       "registration_at": "Tue, 08 Mar 2022",
+       "registration_at": "2022-02-16T19:17:10.919+06:00",
        "ra_phone": "01914840257",
        "status": "active"
    }
