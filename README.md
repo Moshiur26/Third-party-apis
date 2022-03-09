@@ -122,8 +122,6 @@ Customer List which are registered by Retailer Assistance(RA)
  optional :ra_phone, type: String
  requires :start_date_time, type: DateTime
  requires :end_date_time, type: DateTime
- requires :per_page, type: Integer
- requires :page, type: Integer
 
 
 * **Success Response:**
