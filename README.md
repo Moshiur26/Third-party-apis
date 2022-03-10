@@ -1,5 +1,5 @@
 # Third-party-apis
-BASE_URL(sandbox) = "http://api.shopoth.net/3ps"
+BASE_URL(sandbox) = "http://api.shopoth.net/3ps",
 BASE_URL(live) = "https://api.shopoth.com/3ps"
 Authentication
 
