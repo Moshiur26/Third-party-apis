@@ -195,6 +195,118 @@ Customer List which are registered by Retailer Assistance(RA)
 }
 ```
 
+## Retailer Assistant (RA) List
+
+* **URL**: `{BASE_URL}/api/v1/retailer_assistants`
+
+* **Method:** `GET`
+
+*  **Headers:**
+   `Authorization: token’`
+
+*  **Params:**
+   requires :start_date_time, type: DateTime
+   requires :end_date_time, type: DateTime
+
+
+* **Success Response:**
+* **Code:** '200'
+    * **Content:**
+
+```json
+ {
+  "success": true,
+  "status_code": 200,
+  "message": "successfully fetch",
+  "data": [
+    {
+      "id": 55,
+      "name": "Moshiur",
+      "phone": "01625681222",
+      "email": "moshiur.demo@gmail.",
+      "status": "active",
+      "bn_name": null,
+      "created_at": "2022-03-02T19:05:39.638+06:00",
+      "updated_at": "2022-03-02T19:05:39.638+06:00",
+      "father_name": "Father",
+      "experience": "Demo",
+      "education": "Graduate",
+      "nid": "8705783629",
+      "tech_skill": "Demo",
+      "date_of_birth": "1982-02-16T06:00:00.000+06:00",
+      "warehouse_id": 8,
+      "category": "dedicated",
+      "otp": null
+    },
+    {
+      "id": 56,
+      "name": "Moshiur",
+      "phone": "01625983222",
+      "email": "moshiur.demo2@gmail.",
+      "status": "active",
+      "bn_name": null,
+      "created_at": "2022-03-02T19:06:52.810+06:00",
+      "updated_at": "2022-03-02T19:06:52.810+06:00",
+      "father_name": "Father",
+      "experience": "Demo",
+      "education": "Graduate",
+      "nid": "83705783629",
+      "tech_skill": "Demo",
+      "date_of_birth": "1982-02-16T06:00:00.000+06:00",
+      "warehouse_id": 8,
+      "category": "dedicated",
+      "otp": null
+    },
+    {
+      "id": 57,
+      "name": "Moshiur",
+      "phone": "01625983223",
+      "email": "moshiur.demo3@gmail.com",
+      "status": "active",
+      "bn_name": null,
+      "created_at": "2022-03-02T19:33:58.029+06:00",
+      "updated_at": "2022-03-02T19:33:58.029+06:00",
+      "father_name": "Father",
+      "experience": "Demo",
+      "education": "Graduate",
+      "nid": "83706783629",
+      "tech_skill": "Demo",
+      "date_of_birth": "1982-02-16T06:00:00.000+06:00",
+      "warehouse_id": 8,
+      "category": "dedicated",
+      "otp": null
+    }
+  ]
+}
+```
+
+* ** Error Response:*
+* **Code:** `406`
+    * **If given date range not under 1 month or invalid:**
+    * **Content:**
+```json
+{
+  "success": false,
+  "status_code": 406,
+  "message": "The selected date range (start_date: 2021-07-10 00:00:00 UTC and end_date: 2022-08-10 23:59:59 UTC) is not valid! Please select a range within 1 months.",
+  "data": []
+}
+```
+
+* ** Error Response:*
+* **Code:** `500`
+    * **If any error occurs:**
+    * **Content:**
+```json
+{
+   "success": false,
+   "message": "Internal server error",
+   "status_code": 500,
+   "data": {},
+}
+```
+
+
 MISFIT will consume
 Get partner list of a RA : 
 Partner Id,
